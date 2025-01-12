@@ -1,0 +1,66 @@
+# .NET MAUI and Visual Studio generated files
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+bin/
+obj/
+out/
+packages/
+.vs/
+.vs2019/
+.vs2017/
+
+# Rider IDE folders
+.idea/
+
+# User-specific files
+*~
+*.swp
+.DS_Store
+Thumbs.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# JetBrains Rider configuration
+.idea/
+
+# .NET Core / .NET MAUI Build files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Local user app data (avoid storing credentials, tokens, etc.)
+.localhistory/
+*.log
+*.bak
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Build and publish directories
+bin/
+obj/
+publish/
+platforms/
+Properties/
+Resources/
