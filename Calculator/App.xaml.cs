@@ -6,7 +6,6 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		// MainPage = new AppShell();
 	}
 
 	protected override Window CreateWindow(IActivationState? activationState)
@@ -18,15 +17,6 @@ public partial class App : Application
         window.MaximumWidth = 260;
         window.MinimumHeight = 500;
         window.MaximumHeight = 500;
-
-        // Give the Window time to resize (via Dispatcher)
-        // Dispatcher.Dispatch(() =>
-        // {
-        //     window.MinimumWidth = 0;
-        //     window.MinimumHeight = 0;
-        //     window.MaximumWidth = double.PositiveInfinity;
-        //     window.MaximumHeight = double.PositiveInfinity;
-        // });
 
         return window;
     }

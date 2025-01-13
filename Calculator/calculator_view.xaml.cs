@@ -1,7 +1,7 @@
 ﻿namespace Calculator;
 using System.Text.RegularExpressions;
 using System.Data;
-
+using Plugin.Maui.KeyListener;
 public partial class MainPage : ContentPage
 {
 	// int count = 0;
@@ -10,7 +10,6 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();
 	}
-
 	public static double EvaluateExpression(string expression)
     {
         try
@@ -51,6 +50,7 @@ public partial class MainPage : ContentPage
 		Button button = (Button)sender;
 		string Text = DisplayLabel.Text + button.Text;
 		string Updated_Text = FilterText(Text);
+		System.Diagnostics.Debug.WriteLine(Updated_Text);
 
 		DisplayLabel.Text = Updated_Text;
 
